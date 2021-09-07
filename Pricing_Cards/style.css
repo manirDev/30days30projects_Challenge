@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+    overflow-y: hidden;
+    
+}
+b{
+    font-weight: 600;
+}
+.top   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top .group1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.top .group1 span, .btn-input{
+    margin: 7px;
+}
+.top .group1 .monthly, .yearly{
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.664);
+}
+.header-title{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 57px;
+}
+.checkbox{
+    opacity: 0;
+    position: absolute;
+}
+.label {
+	background-color: #15FA70;
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px;
+	position: relative;
+	height: 16px;
+	width: 30px;
+	transform: scale(1.5);
+}
+.label .ball {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	height: 12px;
+	width: 12px;
+	transform: translateX(0px);
+	transition: transform 0.2s linear;
+}
+.checkbox:checked + .label .ball {
+	transform: translateX(14px);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    
+}
+.card{
+    flex: 33%;
+    width: 324px;
+    height: 493px;
+    margin: 15px;
+    border-radius: 12px;
+    position: relative;
+    padding-left: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+}
+.basic{
+    background-color: #E1EDFF;
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+.pro{
+    background-color: #0E7DFF;
+}
+.diamond{
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+}
+.card .title-and-price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 25px;
+
+}
+.card .title-and-price h1{
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 63px;
+}
+.card .line{
+position: absolute;
+width: 63px;
+height: 2.4px;
+left: 45px;
+bottom: 400px;
+border-radius: 12px;
+}
+.pro, .diamond{
+    color: #fff !important;
+}
+.basic .line {
+    background: #1480FF;
+}
+.pro .line, .diamond .line{
+    background: #fff;
+}
+.plan-include{
+position: absolute;
+width: 170px;
+height: 22px;
+left: 45px;
+bottom: 350px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+letter-spacing: 0.2em;
+text-transform: uppercase;
+}
+.pro .plan-include, .diamond .plan-include{
+    color: #fff;
+}
+.basic .plan-include{
+    color: #91B5EA;
+}
+.card .list{
+    width: 236px;
+    height: 290px;
+}
+.card .list ul{
+    position: absolute;
+    left: 0px;
+    top: 140px;
+   
+}
+ul li{
+    list-style: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    padding: 15px 0px 0px 5px;
+    }
+i{
+    padding-right: 10px;
+}
+.basic i{
+    color: #91B5EA;
+}
+.plan-price{
+    background: rgba(149, 187, 244, 0.34);
+    width: 65px;
+    height: 33px;
+    display: flex;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 20px;
+    border-radius: 40px;
+    font-weight: 600;
+    
+}
+.basic .plan-price{
+    color: #0075FF !important;
+}
+.btn{
+    border: none;
+    border-radius: 12px;
+    background-color: #0075FF;
+    color: #fff;
+    width: 220px;
+    height: 45px;
+    position: absolute;
+    left: 45px;
+    top: 420px;
+    margin: auto;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    
+}
+.pro .btn, .diamond .btn {
+    background-color: #C27603 !important;   
+}
+
+@media (max-width: 800px) {
+    body{
+        height: 100vh;
+        overflow-y: scroll;
+    }
+    .header-title{
+        text-align: center;
+    }
+    .container {
+      flex-direction: column;
+    }
+    .card{
+        flex: 100%;
+        width: 324px;
+        min-height: 440px;
+        margin: 15px;
+        border-radius: 12px;
+        position: relative;
+        padding-left: 20px;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+    }
+    .card .title-and-price h1{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 43px;
+        }
+        .card .line{
+        position: absolute;
+        width: 63px;
+        height: 2.4px;
+        left: 45px;
+        bottom: 355px;
+        border-radius: 12px;
+        }
+      
+        .plan-include{
+        position: absolute;
+        width: 170px;
+        height: 22px;
+        left: 45px;
+        bottom: 300px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 18px;
+        /* identical to box height */
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        }
+        
+        .card .list{
+            width: 236px;
+            height: 290px;
+            /*margin-top: 20px;*/
+        }
+        .card .list ul{
+            position: absolute;
+            left: 0px;
+           top: 130px;
+            
+           
+        }
+        ul li{
+            list-style: none;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 22px;
+            padding: 10px 0px 0px 5px;
+            }
+        i{
+            padding-right: 10px;
+        }
+   
+    .btn{
+        border: none;
+        border-radius: 12px;
+        background-color: #0075FF;
+        color: #fff;
+        width: 220px;
+        height: 45px;
+        position: absolute;
+        left: 45px;
+        top: 360px;
+        margin: auto;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 22px;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        
+    }
+  }
