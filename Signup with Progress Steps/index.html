@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Steps</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Signup Form</h2>
+        <div class="progress-title">
+            <span>Name</span>
+            <span>Contact</span>
+            <span>Birth</span>
+            <span>Submit</span>
+        </div>
+        <div class="progress-container">
+            <div class="progress" id="progress"> </div>
+            <div class="circle active">1</div>
+            <div class="circle">2</div>
+            <div class="circle">3</div>
+            <div class="circle">4</div>
+        </div>
+        <div class="form-pages">
+            <form action="#">
+                <div class="page slide-page">
+                    <div class="title">
+                       Basic Info:
+                    </div>
+                    <div class="field">
+                       <div class="label">
+                          First Name
+                       </div>
+                       <input type="text">
+                    </div>
+                    <div class="field">
+                       <div class="label">
+                          Last Name
+                       </div>
+                       <input type="text">
+                    </div>
+                    
+                 </div>
+                 <div class="page">
+                    <div class="title">
+                       Contact Info:
+                    </div>
+                    <div class="field">
+                       <div class="label">
+                          Email Address
+                       </div>
+                       <input type="text">
+                    </div>
+                    <div class="field">
+                       <div class="label">
+                          Phone Number
+                       </div>
+                       <input type="text">
+                    </div>
+                    
+                 </div>
+                 <div class="page">
+                    <div class="title">
+                       Date of Birth:
+                    </div>
+                    <div class="field">
+                       <div class="label">
+                          Date
+                       </div>
+                       <input type="text">
+                    </div>
+                    <div class="field">
+                       <div class="label">
+                          Gender
+                       </div>
+                       <input type="text">
+                    </div>
+                    
+                 </div>
+                 <div class="page">
+                    <div class="title">
+                       Login Details
+                    </div>
+                    <div class="field">
+                       <div class="label">
+                          Username
+                       </div>
+                       <input type="text">
+                    </div>
+                    <div class="field">
+                       <div class="label">
+                          Password
+                       </div>
+                       <input type="text">
+                    </div>
+                    
+                 </div>
+        </div>
+        <button class="btn" id="prev" disabled>Prev</button>
+        <button class="btn" id="next">Next</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
