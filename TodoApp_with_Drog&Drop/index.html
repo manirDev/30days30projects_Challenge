@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 📆 Drag&Drop_app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <h1> ToDo App 📆 </h1>
+       <h4> Drag & Drop items 🚀</h4>
+    </header>
+    <div class="container">
+        <div class="col"  ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="blue">To do</div>
+            <div class="panel" draggable="true" ondragstart="drag(event)" data-id="1"><span>item1</span> <span> 📖 </span></div>
+            <div class="panel " draggable="true" ondragstart="drag(event)" data-id="2"><span>item2</span> <span> 📚 </span></div>
+            <div class="panel " draggable="true" ondragstart="drag(event)" data-id="3"><span>item3</span> <span> 🎸 </span></div>
+            <div class="panel" draggable="true" ondragstart="drag(event)" data-id="4"><span>item4</span> <span> 🧑‍💼 </span></div>
+            <div class="panel" draggable="true" ondragstart="drag(event)" data-id="5"><span>item5</span> <span> 🏈 </span></div>
+        </div>
+        <div class="col"  ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="orange">In Progress</div>
+            <div class="panel" draggable="true" ondragstart="drag(event)" data-id="6"><span>item6</span> <span> 🎲 </span></div>
+            <div class="panel" draggable="true" ondragstart="drag(event)" data-id="7"><span>item7</span> <span> 🌐 </span></div>
+            <div class="panel" draggable="true" ondragstart="drag(event)" data-id="8"><span>item8</span> <span> 🎧 </span></div>
+            <div class="panel" draggable="true" ondragstart="drag(event)" data-id="9"><span>item9</span> <span> 💲 </span></div>
+            <div class="panel" draggable="true" ondragstart="drag(event)" data-id="10"><span>item10</span> <span> 🏠 </span></div>
+        </div>
+        <div class="col"  ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="green" draggable="true">done</div>
+            <div class="panel" draggable="true" ondragstart="drag(event)" data-id="11"><span>item11</span> <span> 💻 </span></div>
+            <div class="panel" draggable="true" ondragstart="drag(event)" data-id="12"><span>item12</span> <span> 🆒 </span></div>
+            <div class="panel" draggable="true" ondragstart="drag(event)" data-id="13"><span>item13</span> <span> 💳 </span></div>
+            <div class="panel" draggable="true" ondragstart="drag(event)" data-id="14"><span>item14</span> <span> 📓 </span></div>
+            <div class="panel" draggable="true" ondragstart="drag(event)" data-id="15"><span>item15</span> <span> 😴 </span></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
