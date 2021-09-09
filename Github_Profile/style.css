@@ -62,26 +62,15 @@ body{
 
 .user-info{
     color: #eee;
-    margin-left: 2rem;
+    margin-left: 3rem;
+    padding-left: 1rem;
+    border-left: 1px solid #6ad0e7;
+
 }
 .user-info h2{
     margin-top: 0;
 }
-.user-info ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-    max-width: 360px;
-}
-.user-info ul li{
-    display: flex;
-    align-items: center;
-}
-.user-info ul li strong{
-    font-size: 0.9rem;
-    margin-left: 0.5rem;
-}
+
 .repo{
     text-decoration: none;
     color: white;
@@ -96,10 +85,36 @@ body{
 }
 .bio-desc{
     color: #ccc;
+    width:200px;
+}
+.bio-desc  ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    width: 100%;
+   
+}
+.bio-desc  ul li{
+    display: flex;
+    align-items: center;
+}
+.bio-desc ul li small{
+    font-size: 0.9rem;
+    margin-right: 0.5rem;
+}
+h3{
+    color: #ccc;
+    margin-top: 20px;
+    font-size: 14px;
 }
 i{
     padding-right: 10px;
 
+}
+.username{
+    padding-left: 40px;
+   /*border-bottom: 1px solid #6ad0e7;*/
 }
 @media(max-width:500px){
     .card{

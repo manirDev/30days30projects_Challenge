@@ -35,20 +35,23 @@ function createUserCard(user) {
     <div class="card">
     <div>
       <img src="${user.avatar_url}" alt="${user.name}" class="avatar">
-    </div>
+      <div class="bio-desc" style="display=flex;flex-direction=column">
+      <i class="username"> ${user.login}</i>
+      <ul>
+      <li> <i class="fas fa-users"></i>${user.followers} <small>Followers</small></li>
+      <li>${user.following} <small>Following</small></li>
+      
+    </ul>
+        <div style="padding=20px;"> <i class="fas fa-map-marker-alt" style="padding-right=10px;"></i> ${user.location}</div>
+        <div style="padding=20px;"> <i class="fab fa-twitter" style="padding-right=10px;"></i>${user.twitter_username}</div>
+       
+        </div>
+      </div>
     <div class="user-info">
       <h2>${userID}</h2>
       ${userBio}
-      <div class="bio-desc" style="display=flex;flex-direction=column">
-       
-        <div style="padding=20px;"> <i class="fas fa-map-marker-alt" style="padding-right=10px;"></i> ${user.location}</div>
-        <div style="padding=20px;"> <i class="fab fa-twitter" style="padding-right=10px;"></i>${user.twitter_username}</div>
-      </div>
-      <ul>
-        <li>${user.followers} <strong>Followers</strong></li>
-        <li>${user.following} <strong>Following</strong></li>
-        <li>${user.public_repos} <strong>Repos</strong></li>
-      </ul>
+      
+      <h3>Popular repositories</h3>
       <div id="repos"></div>
     </div>
   </div>
