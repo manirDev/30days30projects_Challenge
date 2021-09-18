@@ -11,4 +11,5 @@
 | 5 | [Lists Expand and Collapse](https://github.com/manirDev/30days30projects_Challenge/tree/main/List_Expand_Collapse)| [Live Demo](https://manirdev.github.io/30days30projects_Challenge/List_Expand_Collapse/)|
 | 6 | [ProfileCard](https://github.com/manirDev/30days30projects_Challenge/tree/main/ProfileCard) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/ProfileCard/)|
 | 7 | [Todo List With localStorage](https://github.com/manirDev/30days30projects_Challenge/tree/main/TodoList_with_LocalStorage) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/TodoList_with_LocalStorage/)|
-| 8 | Coming soon | [Live Demo]()|
+| 8 | [User Filter](https://github.com/manirDev/30days30projects_Challenge/tree/main/User_Filter) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/User_Filter/)|
+| 9 | Coming soon | [Live Demo]()|
