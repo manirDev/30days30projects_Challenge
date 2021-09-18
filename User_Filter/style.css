@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    overflow: hidden;
+}
+.container{
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 900px;
+    background: #000;
+}
+.top{
+    color: white;
+    margin-bottom: 80px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.header{
+    background-color: #fff;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    width: 900px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.header input{
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 0;
+    border-radius: 5px;
+    color: #222;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 15px;
+    width: 100%;
+}
+.header input:focus{
+    outline: none;
+}
+.header input::placeholder{
+    font-size: 16px;
+    font-weight: 600;
+}
+.user-list{
+    list-style-type: none;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    max-height: 400px;
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 20px;
+}
+.user-list li{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 15px;
+}
+.user-list img{
+    border-radius: 5px;
+    object-fit: cover;
+    width: 80px;
+    height: 80px;
+}
+.user-list .user-info{
+    margin-left: 10px;
+    
+}
+.user-list .user-info h4{
+    margin: 0px 0px 10px;
+}
+.user-list .user-inf p{
+    font-size: 12px;
+}
+.user-list li:not(:last-of-type){
+    border-bottom: 2px solid #eee;
+}
+.user-list li.hide{
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .user-list li{
+        display: flex;
+       
+    }
+    .header{
+        width: 300px;
+    }
+    .user-list{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .container{
+        width: 300px;
+    }
+  }
