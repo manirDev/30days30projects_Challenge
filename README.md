@@ -13,4 +13,4 @@
 | 7 | [Todo List With localStorage](https://github.com/manirDev/30days30projects_Challenge/tree/main/TodoList_with_LocalStorage) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/TodoList_with_LocalStorage/)|
 | 8 | [User Filter](https://github.com/manirDev/30days30projects_Challenge/tree/main/User_Filter) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/User_Filter/)|
 | 9 | [Password Generator](https://github.com/manirDev/30days30projects_Challenge/tree/main/Password_Generator) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Password_Generator/)|
-| 10 | Coming soon | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Password_Generator/)|
+| 10 | Coming soon | [Live Demo]()|
