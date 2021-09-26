@@ -2,10 +2,10 @@ const jokeEl= document.getElementById('joke')
 const jokeBtn= document.getElementById('jokeBtn')
 const authorName = document.getElementById('author')
 
-jokeBtn.addEventListener('click', generateJoke)
+jokeBtn.addEventListener('click', generateQuote)
 
 
-async function generateJoke(){
+async function generateQuote(){
     
     const res = await fetch('http://api.quotable.io/random')
     const data =await res.json()
@@ -13,7 +13,7 @@ async function generateJoke(){
     jokeEl.innerHTML = data.content
 }
 
-/*function generateJoke(){
+/*function generateQuote(){
     fetch("http://api.quotable.io/random")
     .then(response => response.json())
     .then(data =>{
