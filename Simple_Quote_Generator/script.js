@@ -7,7 +7,7 @@ quoteBtn.addEventListener('click', generateQuote)
 //async and await method
 async function generateQuote(){
     
-    const res = await fetch('http://api.quotable.io/random')
+    const res = await fetch('https://api.quotable.io/random')
     const data =await res.json()
     authorName.innerText = data.author
     quoteEl.innerHTML = data.content
