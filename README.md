@@ -15,4 +15,5 @@
 | 9 | [Password Generator](https://github.com/manirDev/30days30projects_Challenge/tree/main/Password_Generator) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Password_Generator/)|
 | 10 | [Coming Soon Page](https://github.com/manirDev/30days30projects_Challenge/tree/main/Coming_Soon_Page) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Coming_Soon_Page/)|
 | 11 | [Image Carousel](https://github.com/manirDev/30days30projects_Challenge/tree/main/Image_Carousel) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Image_Carousel/)|
-| 12 | Coming soon | [Live Demo]()|
+| 12 | [Simple Quote Generator](https://github.com/manirDev/30days30projects_Challenge/tree/main/Simple_Quote_Generator) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Simple_Quote_Generator/)|
+| 13 | Coming soon | [Live Demo]()|
