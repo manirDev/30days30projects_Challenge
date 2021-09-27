@@ -1,0 +1,103 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background: #ddf5f0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ACB6E5, #d1f1ec);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ACB6E5, #def8f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+h2{
+    position: absolute;
+    top: 200px;
+}
+.container{
+    position: relative;
+}
+input[type='range']{
+    width: 300px;
+    margin: 18px 0;
+    -webkit-appearance: none;
+   
+}
+input[type='range'] +label{
+    background-color: #fff;
+    color: rgb(6, 81, 143);
+    font-weight: bold;
+    position: absolute;
+    top: -25px;
+    left: 110px;
+    width: 80px;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+input[type='range']:focus{
+    outline: none;
+}
+/*chrom and safari*/
+input[type='range']::-webkit-slider-runnable-track{
+    background-color: rgb(6, 81, 143);
+    border-radius: 4px;
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+}
+input[type='range']::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 24px;
+    width: 24px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid rgb(6, 81, 143);;
+    margin-top: -7px;
+    cursor: pointer;
+}
+/*firefox*/
+input[type='range']::-moz-range-track{
+    background-color: rgb(6, 81, 143);;
+    border-radius: 4px;
+    width: 100%;
+    height: 13px;
+    cursor: pointer;
+}
+input[type='range']::-moz-range-thumb{
+    -webkit-appearance: none;
+    height: 24px;
+    width: 24px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid rgb(6, 81, 143);;
+    margin-top: -7px;
+    cursor: pointer;
+}
+/*IE*/
+input[type='range']::-ms-track{
+    background-color: rgb(6, 81, 143);;
+    border-radius: 4px;
+    width: 100%;
+    height: 13px;
+    cursor: pointer;
+}
+input[type='range']::-ms-thumb{
+    -webkit-appearance: none;
+    height: 24px;
+    width: 24px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid rgb(6, 81, 143);;
+    margin-top: -7px;
+    cursor: pointer;
+}
