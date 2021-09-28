@@ -17,4 +17,5 @@
 | 11 | [Image Carousel](https://github.com/manirDev/30days30projects_Challenge/tree/main/Image_Carousel) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Image_Carousel/)|
 | 12 | [Simple Quote Generator](https://github.com/manirDev/30days30projects_Challenge/tree/main/Simple_Quote_Generator) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Simple_Quote_Generator/)|
 | 13 | [Custom Range Bar](https://github.com/manirDev/30days30projects_Challenge/tree/main/Custom_range_bar)| [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Custom_range_bar/)|
-| 14 | Coming soon | [Live Demo]()|
+| 14 | [Verify Account UI](https://github.com/manirDev/30days30projects_Challenge/tree/main/Verify_Account_UI) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Verify_Account_UI/)|
+| 15 | Coming soon | [Live Demo]()|
