@@ -1,7 +1,10 @@
 let suggestions = [
+    "Africa",
+    "America",
+    "Asia",
+    "Europe",
+    "Github",
     "Channel",
-    "CodingLab",
-    "CodingNepal",
     "YouTube",
     "YouTuber",
     "YouTube Channel",
