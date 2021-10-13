@@ -22,4 +22,5 @@
 | 16 | [Detect AdBlock](https://github.com/manirDev/30days30projects_Challenge/tree/main/Detect-AdBlock) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Detect-AdBlock/)|
 | 17 | [Popup-Share-Modal-UI](https://github.com/manirDev/30days30projects_Challenge/tree/main/Popup-Share-Modal-UI/) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Popup-Share-Modal-UI/)|
 | 18 | [Mobile Tab Navigation](https://github.com/manirDev/30days30projects_Challenge/tree/main/Mobile-tab-navigation/) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Mobile-tab-navigation/)|
-| 19 | Coming soon | [Live Demo]()|
+| 19 | [Show Password Strength](https://github.com/manirDev/30days30projects_Challenge/tree/main/Show-Password-Strength/) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Show-Password-Strength/)|
+| 20 | Coming soon | [Live Demo]()|
