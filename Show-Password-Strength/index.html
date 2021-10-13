@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Password Strength</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <small>Enter a password to see if the password is : <br> <span style="color: #ff5925;"><b>week</b></span>
+         or <span style="color: yellow;"><b>medium</b></span> or <span style="color: #26d730;"><b>strong</b></span></small>
+    <div class="container">
+        <div class="inputBox">
+            <input type="password" id="password" placeholder="Password">
+            <button type="submit">
+                <img src="img/arrow.png" alt="">
+            </button>
+            <p id="message">Password is <span id="strength"></span></p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
