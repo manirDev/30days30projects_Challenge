@@ -25,4 +25,7 @@
 | 19 | [Show Password Strength](https://github.com/manirDev/30days30projects_Challenge/tree/main/Show-Password-Strength/) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Show-Password-Strength/)|
 | 20 | [Incrementing Counter](https://github.com/manirDev/30days30projects_Challenge/tree/main/Incrementing-Counter/) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Incrementing-Counter/)|
 | 21 | [Hidden Search](https://github.com/manirDev/30days30projects_Challenge/tree/main/Hidden-Search/) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Hidden-Search/)|
-| 22 | Coming soon | [Live Demo]()|
+| 22 | [Image Gallery](https://github.com/manirDev/30days30projects_Challenge/tree/main/Image-Gallery/) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Image-Gallery/)|
+| 23 | Coming soon | [Live Demo]()|
+
+
