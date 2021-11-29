@@ -27,5 +27,5 @@
 | 21 | [Hidden Search](https://github.com/manirDev/30days30projects_Challenge/tree/main/Hidden-Search/) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Hidden-Search/)|
 | 22 | [Image Gallery](https://github.com/manirDev/30days30projects_Challenge/tree/main/Image-Gallery/) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Image-Gallery/)|
 | 23 | [Animated navigation](https://github.com/manirDev/30days30projects_Challenge/tree/main/Animated-navigation/) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Animated-navigation/)|
-| 24 | Coming soon | [Live Demo]()|
-
+| 24 | [Detect Browser](https://github.com/manirDev/30days30projects_Challenge/tree/main/Detect-Browser) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Detect-Browser/)|
+| 25 | Coming soon | [Live Demo]()|
