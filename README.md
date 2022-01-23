@@ -31,6 +31,6 @@
 | 25 | [Cookie Constent Popup](https://github.com/manirDev/30days30projects_Challenge/tree/main/Cookie-Constent-Popup) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Cookie-Constent-Popup/)|
 | 26 | [Advanced Drop-down Menu](https://github.com/manirDev/30days30projects_Challenge/tree/main/Advanced-Drop-down-Menu) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Advanced-Drop-down-Menu/)|
 | 27 | [Slider Blog Card CSS](https://github.com/manirDev/30days30projects_Challenge/tree/main/Slider-Blog-Card-CSS) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Slider-Blog-Card-CSS/)|
-| 28 | [Weather App](https://github.com/manirDev/30days30projects_Challenge/tree/main/Weather-app-js) | [Live Demo](https://github.com/manirDev/30days30projects_Challenge/Weather-app-js)|
+| 28 | [Weather App](https://github.com/manirDev/30days30projects_Challenge/tree/main/Weather-app-js) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Weather-app-js/)|
 | 29 | comming soon... | [Live Demo]()|
 | 30 | comming soon... | [Live Demo]()|
