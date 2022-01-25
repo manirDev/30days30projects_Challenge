@@ -33,4 +33,4 @@
 | 27 | [Slider Blog Card CSS](https://github.com/manirDev/30days30projects_Challenge/tree/main/Slider-Blog-Card-CSS) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Slider-Blog-Card-CSS/)|
 | 28 | [Weather App](https://github.com/manirDev/30days30projects_Challenge/tree/main/Weather-app-js) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Weather-app-js/)|
 | 29 | [Currency Converter](https://github.com/manirDev/30days30projects_Challenge/tree/main/Currency-Converter) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Currency-Converter)|
-| 30 | comming soon... | [Live Demo]()|
+| 30 | [Quiz App](https://github.com/manirDev/30days30projects_Challenge/tree/main/Quiz-App) | [Live Demo](https://manirdev.github.io/30days30projects_Challenge/Quiz-App/)|
